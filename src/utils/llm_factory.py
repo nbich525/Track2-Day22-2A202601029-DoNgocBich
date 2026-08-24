@@ -105,7 +105,7 @@ def get_embeddings(provider: str = None):
     """
     provider = (provider or config.PROVIDER).lower()
 
-    if provider in ("openai", "openrouter"):
+    if provider == "openai":
         from langchain_openai import OpenAIEmbeddings
         kwargs = {
             "model": config.OPENAI_EMBEDDING_MODEL,
@@ -115,11 +115,22 @@ def get_embeddings(provider: str = None):
             kwargs["base_url"] = config.OPENAI_BASE_URL
         return OpenAIEmbeddings(**kwargs)
 
+    elif provider == "openrouter":
+        # OpenRouter is OpenAI-compatible, but must use its own key and endpoint.
+        from langchain_openai import OpenAIEmbeddings
+        return OpenAIEmbeddings(
+            model=config.OPENROUTER_EMBEDDING_MODEL,
+            api_key=config.OPENROUTER_API_KEY,
+            base_url=config.OPENROUTER_BASE_URL,
+        )
+
     elif provider == "gemini":
-        from langchain_google_genai import GoogleGenerativeAIEmbeddings
-        return GoogleGenerativeAIEmbeddings(
-            model=config.GEMINI_EMBEDDING_MODEL,
-            google_api_key=config.GOOGLE_API_KEY,
+        from langchain_huggingface import HuggingFaceEmbeddings
+
+        print("Gemini LLM + Local HuggingFace Embeddings")
+
+        return HuggingFaceEmbeddings(
+            model_name="sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
         )
 
     elif provider == "anthropic":

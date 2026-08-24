@@ -1,0 +1,506 @@
+============================================================
+  Bước 3: RAGAS Evaluation
+============================================================
+✅ Config OK  |  Provider: OPENAI  |  Project: day22-lab
+🔨 Đang tạo FAISS index từ 107 chunks ...
+✅ FAISS vectorstore đã sẵn sàng.
+
+🚀 Đang chạy 50 câu hỏi với prompt v1 ...
+  [01/50] What are the three main types of machine learning?
+  [02/50] What is overfitting in machine learning?
+  [03/50] Explain the bias-variance tradeoff.
+  [04/50] How does regularization prevent overfitting?
+  [05/50] What is cross-validation?
+  [06/50] What is backpropagation?
+  [07/50] What are Convolutional Neural Networks primarily used for?
+  [08/50] How do LSTM networks address the vanishing gradient problem?
+  [09/50] What activation functions are commonly used in neural networ
+  [10/50] What is the role of pooling layers in CNNs?
+  [11/50] What is the transformer architecture?
+  [12/50] What are word embeddings?
+  [13/50] What is transfer learning in NLP?
+  [14/50] How does BERT handle language understanding?
+  [15/50] What is self-attention in transformers?
+  [16/50] What is GPT and how is it trained?
+  [17/50] What is instruction tuning?
+  [18/50] What is RLHF?
+  [19/50] What is chain-of-thought prompting?
+  [20/50] What is the context length of GPT-4?
+  [21/50] What is Retrieval-Augmented Generation?
+  [22/50] What are the main components of a RAG pipeline?
+  [23/50] What is dense retrieval?
+  [24/50] Why is chunking strategy important in RAG?
+  [25/50] What advanced RAG techniques exist beyond basic retrieval?
+  [26/50] What are vector databases used for?
+  [27/50] What is FAISS?
+  [28/50] How do text embeddings capture semantic meaning?
+  [29/50] What is HNSW?
+  [30/50] What is hybrid search in vector databases?
+  [31/50] What is LangChain?
+  [32/50] What is LangChain Expression Language (LCEL)?
+  [33/50] What is LangGraph?
+  [34/50] What memory types does LangChain support?
+  [35/50] What are LangChain retrievers?
+  [36/50] What is LangSmith?
+  [37/50] What information do LangSmith traces capture?
+  [38/50] What is the LangSmith Prompt Hub?
+  [39/50] How does LangSmith help monitor production LLM applications?
+  [40/50] What are LangSmith datasets used for?
+  [41/50] What is RAGAS?
+  [42/50] How does RAGAS compute faithfulness?
+  [43/50] What is answer relevancy in RAGAS?
+  [44/50] What is context recall in RAGAS?
+  [45/50] What inputs does RAGAS evaluation require?
+  [46/50] What is Guardrails AI?
+  [47/50] What is PII and why is it important to detect in LLM respons
+  [48/50] What does structured output validation ensure?
+  [49/50] What is Constitutional AI?
+  [50/50] What are common AI safety concerns with LLMs?
+
+🚀 Đang chạy 50 câu hỏi với prompt v2 ...
+  [01/50] What are the three main types of machine learning?
+  [02/50] What is overfitting in machine learning?
+  [03/50] Explain the bias-variance tradeoff.
+  [04/50] How does regularization prevent overfitting?
+  [05/50] What is cross-validation?
+  [06/50] What is backpropagation?
+  [07/50] What are Convolutional Neural Networks primarily used for?
+  [08/50] How do LSTM networks address the vanishing gradient problem?
+  [09/50] What activation functions are commonly used in neural networ
+  [10/50] What is the role of pooling layers in CNNs?
+  [11/50] What is the transformer architecture?
+  [12/50] What are word embeddings?
+  [13/50] What is transfer learning in NLP?
+  [14/50] How does BERT handle language understanding?
+  [15/50] What is self-attention in transformers?
+  [16/50] What is GPT and how is it trained?
+  [17/50] What is instruction tuning?
+  [18/50] What is RLHF?
+  [19/50] What is chain-of-thought prompting?
+  [20/50] What is the context length of GPT-4?
+  [21/50] What is Retrieval-Augmented Generation?
+  [22/50] What are the main components of a RAG pipeline?
+  [23/50] What is dense retrieval?
+  [24/50] Why is chunking strategy important in RAG?
+  [25/50] What advanced RAG techniques exist beyond basic retrieval?
+  [26/50] What are vector databases used for?
+  [27/50] What is FAISS?
+  [28/50] How do text embeddings capture semantic meaning?
+  [29/50] What is HNSW?
+  [30/50] What is hybrid search in vector databases?
+  [31/50] What is LangChain?
+  [32/50] What is LangChain Expression Language (LCEL)?
+  [33/50] What is LangGraph?
+  [34/50] What memory types does LangChain support?
+  [35/50] What are LangChain retrievers?
+  [36/50] What is LangSmith?
+  [37/50] What information do LangSmith traces capture?
+  [38/50] What is the LangSmith Prompt Hub?
+  [39/50] How does LangSmith help monitor production LLM applications?
+  [40/50] What are LangSmith datasets used for?
+  [41/50] What is RAGAS?
+  [42/50] How does RAGAS compute faithfulness?
+  [43/50] What is answer relevancy in RAGAS?
+  [44/50] What is context recall in RAGAS?
+  [45/50] What inputs does RAGAS evaluation require?
+  [46/50] What is Guardrails AI?
+  [47/50] What is PII and why is it important to detect in LLM respons
+  [48/50] What does structured output validation ensure?
+  [49/50] What is Constitutional AI?
+  [50/50] What are common AI safety concerns with LLMs?
+
+📐 Đang đánh giá RAGAS cho prompt v1 ... (vui lòng chờ ~5-10 phút)
+
+Evaluating:   0%|          | 0/200 [00:00<?, ?it/s]
+Evaluating:   0%|          | 1/200 [00:20<1:07:34, 20.37s/it]
+Evaluating:   1%|          | 2/200 [00:25<38:35, 11.70s/it]  
+Evaluating:   2%|▏         | 3/200 [00:04<04:05,  1.25s/it]
+Evaluating:   2%|▏         | 4/200 [00:05<04:11,  1.29s/it]
+Evaluating:   3%|▎         | 6/200 [00:07<03:27,  1.07s/it]
+Evaluating:   4%|▎         | 7/200 [00:08<03:49,  1.19s/it]
+Evaluating:   4%|▍         | 8/200 [00:09<03:17,  1.03s/it]
+Evaluating:   4%|▍         | 9/200 [00:09<02:35,  1.23it/s]
+Evaluating:   5%|▌         | 10/200 [00:10<02:54,  1.09it/s]
+Evaluating:   6%|▌         | 11/200 [00:12<03:31,  1.12s/it]
+Evaluating:   6%|▋         | 13/200 [00:14<03:05,  1.01it/s]
+Evaluating:   7%|▋         | 14/200 [00:14<02:27,  1.26it/s]
+Evaluating:   8%|▊         | 15/200 [00:15<02:47,  1.10it/s]
+Evaluating:   8%|▊         | 17/200 [00:16<02:25,  1.26it/s]
+Evaluating:   9%|▉         | 18/200 [00:16<01:57,  1.55it/s]
+Evaluating:  10%|▉         | 19/200 [00:18<02:33,  1.18it/s]
+Evaluating:  10%|█         | 20/200 [00:19<03:06,  1.03s/it]
+Evaluating:  10%|█         | 21/200 [00:20<02:37,  1.14it/s]
+Evaluating:  11%|█         | 22/200 [00:21<02:41,  1.10it/s]
+Evaluating:  12%|█▏        | 23/200 [00:22<02:35,  1.14it/s]
+Evaluating:  12%|█▏        | 24/200 [00:22<02:20,  1.25it/s]
+Evaluating:  12%|█▎        | 25/200 [00:23<02:36,  1.12it/s]
+Evaluating:  13%|█▎        | 26/200 [00:25<02:51,  1.01it/s]
+Evaluating:  14%|█▎        | 27/200 [00:26<03:14,  1.12s/it]
+Evaluating:  14%|█▍        | 29/200 [00:28<02:47,  1.02it/s]
+Evaluating:  15%|█▌        | 30/200 [00:28<02:25,  1.17it/s]
+Evaluating:  16%|█▌        | 31/200 [00:28<01:53,  1.48it/s]
+Evaluating:  16%|█▌        | 32/200 [00:30<02:26,  1.14it/s]
+Evaluating:  17%|█▋        | 34/200 [00:32<02:25,  1.14it/s]
+Evaluating:  18%|█▊        | 35/200 [00:33<02:56,  1.07s/it]
+Evaluating:  18%|█▊        | 36/200 [00:34<02:39,  1.03it/s]
+Evaluating:  18%|█▊        | 37/200 [00:35<02:51,  1.05s/it]
+Evaluating:  20%|█▉        | 39/200 [00:37<02:31,  1.06it/s]
+Evaluating:  20%|██        | 40/200 [00:39<03:07,  1.17s/it]
+Evaluating:  20%|██        | 41/200 [00:39<02:35,  1.02it/s]
+Evaluating:  21%|██        | 42/200 [00:40<02:14,  1.18it/s]
+Evaluating:  22%|██▏       | 43/200 [00:41<02:38,  1.01s/it]
+Evaluating:  22%|██▎       | 45/200 [00:43<02:24,  1.08it/s]
+Evaluating:  23%|██▎       | 46/200 [00:44<02:31,  1.02it/s]
+Evaluating:  24%|██▍       | 48/200 [00:45<02:16,  1.12it/s]
+Evaluating:  25%|██▌       | 50/200 [00:47<02:08,  1.17it/s]
+Evaluating:  26%|██▌       | 51/200 [00:48<02:26,  1.02it/s]
+Evaluating:  26%|██▋       | 53/200 [00:50<02:14,  1.09it/s]
+Evaluating:  27%|██▋       | 54/200 [00:50<01:51,  1.31it/s]
+Evaluating:  28%|██▊       | 55/200 [00:52<02:12,  1.09it/s]
+Evaluating:  28%|██▊       | 56/200 [00:53<02:11,  1.10it/s]
+Evaluating:  28%|██▊       | 57/200 [00:54<02:20,  1.02it/s]
+Evaluating:  29%|██▉       | 58/200 [00:55<02:16,  1.04it/s]
+Evaluating:  30%|██▉       | 59/200 [00:55<01:49,  1.29it/s]
+Evaluating:  30%|███       | 60/200 [00:56<02:02,  1.14it/s]
+Evaluating:  30%|███       | 61/200 [00:56<01:44,  1.33it/s]
+Evaluating:  31%|███       | 62/200 [00:57<01:35,  1.45it/s]
+Evaluating:  32%|███▏      | 63/200 [00:58<02:04,  1.10it/s]
+Evaluating:  32%|███▏      | 64/200 [01:00<02:29,  1.10s/it]
+Evaluating:  32%|███▎      | 65/200 [01:00<01:58,  1.14it/s]
+Evaluating:  33%|███▎      | 66/200 [01:01<01:42,  1.31it/s]
+Evaluating:  34%|███▎      | 67/200 [01:02<02:15,  1.02s/it]
+Evaluating:  34%|███▍      | 68/200 [01:03<02:07,  1.04it/s]
+Evaluating:  34%|███▍      | 69/200 [01:04<02:00,  1.09it/s]
+Evaluating:  35%|███▌      | 70/200 [01:06<02:23,  1.10s/it]
+Evaluating:  36%|███▌      | 71/200 [01:07<02:40,  1.24s/it]
+Evaluating:  36%|███▌      | 72/200 [01:08<02:04,  1.03it/s]
+Evaluating:  36%|███▋      | 73/200 [01:09<02:23,  1.13s/it]
+Evaluating:  37%|███▋      | 74/200 [01:10<01:57,  1.08it/s]
+Evaluating:  38%|███▊      | 75/200 [01:10<01:45,  1.19it/s]
+Evaluating:  38%|███▊      | 76/200 [01:11<01:41,  1.22it/s]
+Evaluating:  38%|███▊      | 77/200 [01:12<01:37,  1.26it/s]
+Evaluating:  39%|███▉      | 78/200 [01:12<01:15,  1.61it/s]
+Evaluating:  40%|███▉      | 79/200 [01:12<01:10,  1.73it/s]
+Evaluating:  40%|████      | 80/200 [01:15<02:31,  1.26s/it]
+Evaluating:  40%|████      | 81/200 [01:16<01:58,  1.00it/s]
+Evaluating:  41%|████      | 82/200 [01:16<01:52,  1.05it/s]
+Evaluating:  42%|████▏     | 83/200 [01:18<02:10,  1.11s/it]
+Evaluating:  42%|████▏     | 84/200 [01:19<01:55,  1.01it/s]
+Evaluating:  42%|████▎     | 85/200 [01:20<01:57,  1.02s/it]
+Evaluating:  43%|████▎     | 86/200 [01:20<01:47,  1.06it/s]
+Evaluating:  44%|████▎     | 87/200 [01:22<02:08,  1.14s/it]
+Evaluating:  44%|████▍     | 88/200 [01:23<01:49,  1.02it/s]
+Evaluating:  44%|████▍     | 89/200 [01:23<01:39,  1.11it/s]
+Evaluating:  45%|████▌     | 90/200 [01:24<01:36,  1.14it/s]
+Evaluating:  46%|████▌     | 91/200 [01:26<01:57,  1.08s/it]
+Evaluating:  46%|████▋     | 93/200 [01:28<01:46,  1.01it/s]
+Evaluating:  47%|████▋     | 94/200 [01:28<01:28,  1.20it/s]
+Evaluating:  48%|████▊     | 95/200 [01:29<01:42,  1.03it/s]
+Evaluating:  48%|████▊     | 96/200 [01:30<01:37,  1.07it/s]
+Evaluating:  48%|████▊     | 97/200 [01:31<01:28,  1.16it/s]
+Evaluating:  50%|████▉     | 99/200 [01:32<01:16,  1.31it/s]
+Evaluating:  50%|█████     | 100/200 [01:33<01:30,  1.11it/s]
+Evaluating:  50%|█████     | 101/200 [01:34<01:34,  1.05it/s]
+Evaluating:  51%|█████     | 102/200 [01:35<01:16,  1.28it/s]
+Evaluating:  52%|█████▏    | 103/200 [01:37<01:52,  1.16s/it]
+Evaluating:  52%|█████▏    | 104/200 [01:38<01:40,  1.05s/it]
+Evaluating:  52%|█████▎    | 105/200 [01:38<01:15,  1.26it/s]
+Evaluating:  53%|█████▎    | 106/200 [01:39<01:31,  1.02it/s]
+Evaluating:  54%|█████▎    | 107/200 [01:41<01:40,  1.08s/it]
+Evaluating:  54%|█████▍    | 108/200 [01:41<01:15,  1.22it/s]
+Evaluating:  55%|█████▍    | 109/200 [01:42<01:14,  1.22it/s]
+Evaluating:  55%|█████▌    | 110/200 [01:42<00:59,  1.52it/s]
+Evaluating:  56%|█████▌    | 111/200 [01:42<00:47,  1.87it/s]
+Evaluating:  56%|█████▌    | 112/200 [01:44<01:21,  1.07it/s]
+Evaluating:  57%|█████▋    | 114/200 [01:45<00:58,  1.47it/s]
+Evaluating:  57%|█████▊    | 115/200 [01:46<01:10,  1.20it/s]
+Evaluating:  58%|█████▊    | 116/200 [01:47<01:18,  1.07it/s]
+Evaluating:  58%|█████▊    | 117/200 [01:48<01:02,  1.32it/s]
+Evaluating:  59%|█████▉    | 118/200 [01:50<01:37,  1.19s/it]
+Evaluating:  60%|█████▉    | 119/200 [01:51<01:41,  1.25s/it]
+Evaluating:  60%|██████    | 120/200 [01:52<01:16,  1.04it/s]
+Evaluating:  61%|██████    | 122/200 [01:53<01:08,  1.14it/s]
+Evaluating:  62%|██████▏   | 123/200 [01:55<01:19,  1.03s/it]
+Evaluating:  62%|██████▏   | 124/200 [01:55<01:08,  1.11it/s]
+Evaluating:  62%|██████▎   | 125/200 [01:56<01:15,  1.00s/it]
+Evaluating:  64%|██████▎   | 127/200 [01:57<00:54,  1.34it/s]
+Evaluating:  64%|██████▍   | 128/200 [01:58<00:51,  1.40it/s]
+Evaluating:  64%|██████▍   | 129/200 [01:59<00:58,  1.22it/s]
+Evaluating:  65%|██████▌   | 130/200 [02:00<00:58,  1.19it/s]
+Evaluating:  66%|██████▌   | 131/200 [02:01<01:07,  1.03it/s]
+Evaluating:  66%|██████▌   | 132/200 [02:02<01:03,  1.07it/s]
+Evaluating:  66%|██████▋   | 133/200 [02:03<00:53,  1.25it/s]
+Evaluating:  67%|██████▋   | 134/200 [02:03<00:40,  1.64it/s]
+Evaluating:  68%|██████▊   | 135/200 [02:03<00:36,  1.76it/s]
+Evaluating:  68%|██████▊   | 136/200 [02:04<00:43,  1.49it/s]
+Evaluating:  68%|██████▊   | 137/200 [02:05<00:43,  1.44it/s]
+Evaluating:  69%|██████▉   | 138/200 [02:06<01:01,  1.01it/s]
+Evaluating:  70%|██████▉   | 139/200 [02:07<00:49,  1.24it/s]
+Evaluating:  70%|███████   | 140/200 [02:08<00:51,  1.17it/s]
+Evaluating:  70%|███████   | 141/200 [02:08<00:42,  1.40it/s]
+Evaluating:  71%|███████   | 142/200 [02:09<00:42,  1.37it/s]
+Evaluating:  72%|███████▏  | 143/200 [02:09<00:31,  1.82it/s]
+Evaluating:  72%|███████▏  | 144/200 [02:10<00:41,  1.36it/s]
+Evaluating:  72%|███████▎  | 145/200 [02:13<01:07,  1.23s/it]
+Evaluating:  73%|███████▎  | 146/200 [02:13<00:59,  1.10s/it]
+Evaluating:  74%|███████▎  | 147/200 [02:15<00:59,  1.13s/it]
+Evaluating:  74%|███████▍  | 148/200 [02:15<00:45,  1.15it/s]
+Evaluating:  74%|███████▍  | 149/200 [02:16<00:54,  1.06s/it]
+Evaluating:  75%|███████▌  | 150/200 [02:17<00:40,  1.23it/s]
+Evaluating:  76%|███████▌  | 151/200 [02:17<00:31,  1.53it/s]
+Evaluating:  76%|███████▌  | 152/200 [02:18<00:40,  1.19it/s]
+Evaluating:  76%|███████▋  | 153/200 [02:19<00:31,  1.48it/s]
+Evaluating:  77%|███████▋  | 154/200 [02:20<00:40,  1.14it/s]
+Evaluating:  78%|███████▊  | 155/200 [02:21<00:44,  1.01it/s]
+Evaluating:  78%|███████▊  | 156/200 [02:23<00:51,  1.18s/it]
+Evaluating:  78%|███████▊  | 157/200 [02:24<00:46,  1.08s/it]
+Evaluating:  79%|███████▉  | 158/200 [02:24<00:41,  1.00it/s]
+Evaluating:  80%|███████▉  | 159/200 [02:26<00:46,  1.13s/it]
+Evaluating:  80%|████████  | 161/200 [02:28<00:45,  1.17s/it]
+Evaluating:  82%|████████▏ | 163/200 [02:29<00:33,  1.11it/s]
+Evaluating:  82%|████████▏ | 164/200 [02:30<00:31,  1.16it/s]
+Evaluating:  82%|████████▎ | 165/200 [02:31<00:34,  1.01it/s]
+Evaluating:  83%|████████▎ | 166/200 [02:32<00:32,  1.06it/s]
+Evaluating:  84%|████████▎ | 167/200 [02:34<00:36,  1.10s/it]
+Evaluating:  84%|████████▍ | 169/200 [02:36<00:32,  1.04s/it]
+Evaluating:  85%|████████▌ | 170/200 [02:36<00:25,  1.16it/s]
+Evaluating:  86%|████████▌ | 171/200 [02:37<00:29,  1.02s/it]
+Evaluating:  86%|████████▌ | 172/200 [02:38<00:26,  1.07it/s]
+Evaluating:  86%|████████▋ | 173/200 [02:40<00:31,  1.17s/it]
+Evaluating:  88%|████████▊ | 175/200 [02:41<00:24,  1.03it/s]
+Evaluating:  88%|████████▊ | 177/200 [02:43<00:22,  1.03it/s]
+Evaluating:  89%|████████▉ | 178/200 [02:43<00:17,  1.27it/s]
+Evaluating:  90%|████████▉ | 179/200 [02:45<00:19,  1.09it/s]
+Evaluating:  90%|█████████ | 180/200 [02:45<00:16,  1.24it/s]
+Evaluating:  90%|█████████ | 181/200 [02:46<00:15,  1.26it/s]
+Evaluating:  91%|█████████ | 182/200 [02:47<00:17,  1.03it/s]
+Evaluating:  92%|█████████▏| 183/200 [02:50<00:21,  1.29s/it]
+Evaluating:  92%|█████████▏| 184/200 [02:50<00:17,  1.12s/it]
+Evaluating:  92%|█████████▎| 185/200 [02:51<00:15,  1.06s/it]
+Evaluating:  94%|█████████▎| 187/200 [02:52<00:10,  1.21it/s]
+Evaluating:  94%|█████████▍| 188/200 [02:53<00:09,  1.32it/s]
+Evaluating:  94%|█████████▍| 189/200 [02:54<00:09,  1.20it/s]
+Evaluating:  95%|█████████▌| 190/200 [02:56<00:11,  1.16s/it]
+Evaluating:  96%|█████████▌| 191/200 [02:57<00:09,  1.08s/it]
+Evaluating:  96%|█████████▌| 192/200 [02:57<00:07,  1.09it/s]
+Evaluating:  96%|█████████▋| 193/200 [02:58<00:05,  1.35it/s]
+Evaluating:  97%|█████████▋| 194/200 [02:58<00:04,  1.30it/s]
+Evaluating:  98%|█████████▊| 195/200 [03:00<00:04,  1.02it/s]
+Evaluating:  98%|█████████▊| 197/200 [03:01<00:02,  1.12it/s]
+Evaluating:  99%|█████████▉| 198/200 [03:02<00:01,  1.31it/s]
+Evaluating: 100%|█████████▉| 199/200 [03:05<00:01,  1.29s/it]
+Evaluating: 100%|██████████| 200/200 [03:06<00:00,  1.24s/it]
+Evaluating: 100%|██████████| 200/200 [03:06<00:00,  1.07it/s]
+
+📊 Kết quả RAGAS — Prompt V1:
+  faithfulness                  : 0.9790 ⭐
+  answer_relevancy              : 0.8937
+  context_recall                : 1.0000
+  context_precision             : 0.9467
+
+📐 Đang đánh giá RAGAS cho prompt v2 ... (vui lòng chờ ~5-10 phút)
+   Đánh giá 50/50 mẫu (RAGAS_SAMPLE_LIMIT=50)
+
+Evaluating:   0%|          | 0/200 [00:00<?, ?it/s]LLM returned 1 generations instead of requested 3. Proceeding with 
+1 generations.
+
+Evaluating:   0%|          | 1/200 [00:02<07:38,  2.30s/it]
+Evaluating:   2%|▏         | 3/200 [00:03<03:28,  1.06s/it]
+Evaluating:   2%|▏         | 4/200 [00:05<04:01,  1.23s/it]
+Evaluating:   2%|▎         | 5/200 [00:05<02:49,  1.15it/s]
+Evaluating:   3%|▎         | 6/200 [00:06<03:39,  1.13s/it]
+Evaluating:   4%|▎         | 7/200 [00:08<04:29,  1.39s/it]
+Evaluating:   4%|▍         | 8/200 [00:09<04:06,  1.29s/it]
+Evaluating:   4%|▍         | 9/200 [00:10<03:45,  1.18s/it]
+Evaluating:   5%|▌         | 10/200 [00:12<04:27,  1.41s/it]
+Evaluating:   6%|▌         | 11/200 [00:12<03:11,  1.01s/it]
+Evaluating:   6%|▌         | 12/200 [00:14<03:23,  1.08s/it]
+Evaluating:   6%|▋         | 13/200 [00:15<03:31,  1.13s/it]
+Evaluating:   7%|▋         | 14/200 [00:16<03:42,  1.20s/it]
+Evaluating:   8%|▊         | 15/200 [00:18<03:52,  1.26s/it]
+Evaluating:   8%|▊         | 17/200 [00:19<02:57,  1.03it/s]
+Evaluating:   9%|▉         | 18/200 [00:19<02:24,  1.26it/s]
+Evaluating:  10%|▉         | 19/200 [00:21<02:50,  1.06it/s]
+Evaluating:  10%|█         | 20/200 [00:22<03:17,  1.10s/it]
+Evaluating:  10%|█         | 21/200 [00:22<02:41,  1.11it/s]
+Evaluating:  12%|█▏        | 23/200 [00:24<02:23,  1.24it/s]
+Evaluating:  12%|█▏        | 24/200 [00:25<02:43,  1.08it/s]
+Evaluating:  12%|█▎        | 25/200 [00:26<02:35,  1.13it/s]
+Evaluating:  13%|█▎        | 26/200 [00:27<02:22,  1.22it/s]
+Evaluating:  14%|█▎        | 27/200 [00:28<02:54,  1.01s/it]
+Evaluating:  14%|█▍        | 28/200 [00:29<03:11,  1.11s/it]
+Evaluating:  14%|█▍        | 29/200 [00:30<02:42,  1.05it/s]
+Evaluating:  15%|█▌        | 30/200 [00:31<02:28,  1.15it/s]
+Evaluating:  16%|█▌        | 31/200 [00:32<03:02,  1.08s/it]
+Evaluating:  16%|█▌        | 32/200 [00:33<02:50,  1.02s/it]
+Evaluating:  16%|█▋        | 33/200 [00:34<02:27,  1.13it/s]
+Evaluating:  17%|█▋        | 34/200 [00:35<02:44,  1.01it/s]
+Evaluating:  18%|█▊        | 35/200 [00:35<02:02,  1.34it/s]
+Evaluating:  18%|█▊        | 36/200 [00:36<02:19,  1.17it/s]
+Evaluating:  18%|█▊        | 37/200 [00:37<02:28,  1.10it/s]
+Evaluating:  19%|█▉        | 38/200 [00:38<02:01,  1.33it/s]
+Evaluating:  20%|█▉        | 39/200 [00:39<02:47,  1.04s/it]
+Evaluating:  20%|██        | 40/200 [00:41<03:26,  1.29s/it]
+Evaluating:  21%|██        | 42/200 [00:43<03:00,  1.14s/it]
+Evaluating:  22%|██▏       | 43/200 [00:45<03:08,  1.20s/it]
+Evaluating:  22%|██▏       | 44/200 [00:46<03:22,  1.30s/it]
+Evaluating:  22%|██▎       | 45/200 [00:47<03:24,  1.32s/it]
+Evaluating:  24%|██▍       | 48/200 [00:49<02:08,  1.18it/s]
+Evaluating:  24%|██▍       | 49/200 [00:49<02:01,  1.24it/s]
+Evaluating:  25%|██▌       | 50/200 [00:55<04:30,  1.81s/it]
+Evaluating:  26%|██▌       | 51/200 [00:55<03:29,  1.41s/it]
+Evaluating:  26%|██▌       | 52/200 [00:55<02:47,  1.13s/it]
+Evaluating:  26%|██▋       | 53/200 [00:56<02:48,  1.14s/it]
+Evaluating:  28%|██▊       | 55/200 [00:58<02:18,  1.05it/s]
+Evaluating:  28%|██▊       | 56/200 [00:59<02:40,  1.11s/it]
+Evaluating:  28%|██▊       | 57/200 [01:03<04:16,  1.79s/it]
+Evaluating:  29%|██▉       | 58/200 [01:04<03:36,  1.53s/it]
+Evaluating:  30%|██▉       | 59/200 [01:05<03:30,  1.49s/it]
+Evaluating:  30%|███       | 61/200 [01:07<02:41,  1.17s/it]
+Evaluating:  31%|███       | 62/200 [01:10<03:52,  1.68s/it]
+Evaluating:  32%|███▏      | 63/200 [01:11<03:17,  1.44s/it]
+Evaluating:  32%|███▏      | 64/200 [01:12<02:51,  1.26s/it]
+Evaluating:  32%|███▎      | 65/200 [01:12<02:32,  1.13s/it]
+Evaluating:  33%|███▎      | 66/200 [01:16<04:05,  1.84s/it]
+Evaluating:  34%|███▎      | 67/200 [01:17<03:13,  1.45s/it]
+Evaluating:  34%|███▍      | 68/200 [01:18<02:58,  1.35s/it]
+Evaluating:  34%|███▍      | 69/200 [01:19<02:43,  1.25s/it]
+Evaluating:  35%|███▌      | 70/200 [01:21<03:20,  1.54s/it]
+Evaluating:  36%|███▌      | 71/200 [01:23<03:20,  1.56s/it]
+Evaluating:  36%|███▌      | 72/200 [01:23<02:33,  1.20s/it]
+Evaluating:  36%|███▋      | 73/200 [01:25<03:22,  1.60s/it]
+Evaluating:  37%|███▋      | 74/200 [01:27<03:16,  1.56s/it]
+Evaluating:  38%|███▊      | 75/200 [01:27<02:22,  1.14s/it]
+Evaluating:  38%|███▊      | 76/200 [01:28<02:25,  1.17s/it]
+Evaluating:  39%|███▉      | 78/200 [01:31<02:28,  1.22s/it]
+Evaluating:  40%|███▉      | 79/200 [01:32<02:38,  1.31s/it]
+Evaluating:  40%|████      | 80/200 [01:34<02:41,  1.35s/it]
+Evaluating:  40%|████      | 81/200 [01:35<02:41,  1.36s/it]
+Evaluating:  41%|████      | 82/200 [01:42<05:31,  2.81s/it]
+Evaluating:  42%|████▏     | 83/200 [01:42<04:02,  2.07s/it]
+Evaluating:  42%|████▏     | 84/200 [01:42<03:03,  1.58s/it]
+Evaluating:  42%|████▎     | 85/200 [01:43<02:41,  1.40s/it]
+Evaluating:  43%|████▎     | 86/200 [01:44<02:17,  1.21s/it]
+Evaluating:  44%|████▎     | 87/200 [01:45<02:19,  1.24s/it]
+Evaluating:  44%|████▍     | 88/200 [01:47<02:26,  1.30s/it]
+Evaluating:  44%|████▍     | 89/200 [01:49<02:59,  1.61s/it]
+Evaluating:  45%|████▌     | 90/200 [01:50<02:42,  1.48s/it]
+Evaluating:  46%|████▌     | 91/200 [01:52<02:48,  1.55s/it]
+Evaluating:  46%|████▋     | 93/200 [01:54<02:06,  1.18s/it]
+Evaluating:  47%|████▋     | 94/200 [01:54<01:56,  1.10s/it]
+Evaluating:  48%|████▊     | 95/200 [01:57<02:23,  1.36s/it]
+Evaluating:  48%|████▊     | 96/200 [01:57<01:56,  1.12s/it]
+Evaluating:  48%|████▊     | 97/200 [01:58<01:38,  1.04it/s]
+Evaluating:  49%|████▉     | 98/200 [01:58<01:28,  1.16it/s]
+Evaluating:  50%|████▉     | 99/200 [01:59<01:30,  1.12it/s]
+Evaluating:  50%|█████     | 100/200 [02:00<01:15,  1.33it/s]
+Evaluating:  50%|█████     | 101/200 [02:01<01:21,  1.21it/s]
+Evaluating:  51%|█████     | 102/200 [02:01<01:16,  1.29it/s]
+Evaluating:  52%|█████▏    | 103/200 [02:03<01:34,  1.02it/s]
+Evaluating:  52%|█████▏    | 104/200 [02:04<01:32,  1.04it/s]
+Evaluating:  52%|█████▎    | 105/200 [02:04<01:07,  1.42it/s]
+Evaluating:  53%|█████▎    | 106/200 [02:05<01:26,  1.09it/s]
+Evaluating:  54%|█████▎    | 107/200 [02:07<01:48,  1.16s/it]
+Evaluating:  54%|█████▍    | 108/200 [02:09<02:02,  1.33s/it]
+Evaluating:  55%|█████▍    | 109/200 [02:09<01:28,  1.03it/s]
+Evaluating:  55%|█████▌    | 110/200 [02:09<01:10,  1.27it/s]
+Evaluating:  56%|█████▌    | 111/200 [02:11<01:31,  1.03s/it]
+Evaluating:  56%|█████▌    | 112/200 [02:11<01:18,  1.12it/s]
+Evaluating:  56%|█████▋    | 113/200 [02:12<01:20,  1.08it/s]
+Evaluating:  57%|█████▋    | 114/200 [02:17<03:08,  2.19s/it]
+Evaluating:  57%|█████▊    | 115/200 [02:18<02:33,  1.81s/it]
+Evaluating:  58%|█████▊    | 116/200 [02:19<02:00,  1.43s/it]
+Evaluating:  58%|█████▊    | 117/200 [02:20<01:49,  1.32s/it]
+Evaluating:  59%|█████▉    | 118/200 [02:21<01:31,  1.12s/it]
+Evaluating:  60%|█████▉    | 119/200 [02:23<01:56,  1.44s/it]
+Evaluating:  60%|██████    | 121/200 [02:25<01:32,  1.17s/it]
+Evaluating:  61%|██████    | 122/200 [02:27<01:49,  1.40s/it]
+Evaluating:  62%|██████▏   | 124/200 [02:28<01:24,  1.12s/it]
+Evaluating:  62%|██████▎   | 125/200 [02:29<01:14,  1.00it/s]
+Evaluating:  63%|██████▎   | 126/200 [02:30<01:15,  1.02s/it]
+Evaluating:  64%|██████▎   | 127/200 [02:31<01:20,  1.10s/it]
+Evaluating:  64%|██████▍   | 128/200 [02:33<01:26,  1.20s/it]
+Evaluating:  64%|██████▍   | 129/200 [02:33<01:03,  1.11it/s]
+Evaluating:  65%|██████▌   | 130/200 [02:36<01:50,  1.58s/it]
+Evaluating:  66%|██████▌   | 131/200 [02:38<01:52,  1.63s/it]
+Evaluating:  66%|██████▌   | 132/200 [02:39<01:40,  1.47s/it]
+Evaluating:  66%|██████▋   | 133/200 [02:40<01:25,  1.27s/it]
+Evaluating:  67%|██████▋   | 134/200 [02:40<01:06,  1.00s/it]
+Evaluating:  68%|██████▊   | 135/200 [02:41<01:14,  1.15s/it]
+Evaluating:  68%|██████▊   | 136/200 [02:42<01:08,  1.07s/it]
+Evaluating:  68%|██████▊   | 137/200 [02:45<01:46,  1.68s/it]
+Evaluating:  69%|██████▉   | 138/200 [02:46<01:30,  1.46s/it]
+Evaluating:  70%|██████▉   | 139/200 [02:48<01:27,  1.43s/it]
+Evaluating:  70%|███████   | 140/200 [02:48<01:12,  1.20s/it]
+Evaluating:  70%|███████   | 141/200 [02:50<01:09,  1.18s/it]
+Evaluating:  71%|███████   | 142/200 [02:53<01:39,  1.71s/it]
+Evaluating:  72%|███████▏  | 143/200 [02:54<01:29,  1.58s/it]
+Evaluating:  72%|███████▏  | 144/200 [02:55<01:30,  1.62s/it]
+Evaluating:  73%|███████▎  | 146/200 [02:57<01:09,  1.28s/it]
+Evaluating:  74%|███████▎  | 147/200 [02:59<01:09,  1.30s/it]
+Evaluating:  74%|███████▍  | 148/200 [03:00<01:04,  1.23s/it]
+Evaluating:  74%|███████▍  | 149/200 [03:00<00:52,  1.02s/it]
+Evaluating:  75%|███████▌  | 150/200 [03:02<01:02,  1.26s/it]
+Evaluating:  76%|███████▌  | 151/200 [03:03<01:03,  1.30s/it]
+Evaluating:  76%|███████▋  | 153/200 [03:05<00:48,  1.04s/it]
+Evaluating:  77%|███████▋  | 154/200 [03:09<01:18,  1.70s/it]
+Evaluating:  78%|███████▊  | 155/200 [03:10<01:09,  1.55s/it]
+Evaluating:  78%|███████▊  | 156/200 [03:10<00:56,  1.27s/it]
+Evaluating:  78%|███████▊  | 157/200 [03:11<00:42,  1.00it/s]
+Evaluating:  79%|███████▉  | 158/200 [03:11<00:40,  1.03it/s]
+Evaluating:  80%|███████▉  | 159/200 [03:13<00:46,  1.14s/it]
+Evaluating:  80%|████████  | 160/200 [03:14<00:38,  1.03it/s]
+Evaluating:  80%|████████  | 161/200 [03:15<00:42,  1.09s/it]
+Evaluating:  81%|████████  | 162/200 [03:16<00:38,  1.01s/it]
+Evaluating:  82%|████████▏ | 163/200 [03:18<00:46,  1.25s/it]
+Evaluating:  82%|████████▎ | 165/200 [03:19<00:32,  1.07it/s]
+Evaluating:  83%|████████▎ | 166/200 [03:20<00:30,  1.10it/s]
+Evaluating:  84%|████████▎ | 167/200 [03:21<00:37,  1.13s/it]
+Evaluating:  84%|████████▍ | 168/200 [03:22<00:29,  1.08it/s]
+Evaluating:  84%|████████▍ | 169/200 [03:23<00:32,  1.04s/it]LLM returned 1 generations instead of requested 3. 
+Proceeding with 1 generations.
+
+Evaluating:  86%|████████▌ | 171/200 [03:24<00:25,  1.15it/s]
+Evaluating:  86%|████████▌ | 172/200 [03:26<00:29,  1.04s/it]
+Evaluating:  86%|████████▋ | 173/200 [03:26<00:22,  1.19it/s]
+Evaluating:  87%|████████▋ | 174/200 [03:27<00:21,  1.18it/s]
+Evaluating:  88%|████████▊ | 175/200 [03:28<00:25,  1.00s/it]
+Evaluating:  88%|████████▊ | 176/200 [03:30<00:28,  1.17s/it]
+Evaluating:  89%|████████▉ | 178/200 [03:30<00:15,  1.42it/s]
+Evaluating:  90%|████████▉ | 179/200 [03:32<00:17,  1.17it/s]
+Evaluating:  90%|█████████ | 180/200 [03:33<00:20,  1.04s/it]
+Evaluating:  91%|█████████ | 182/200 [03:34<00:14,  1.24it/s]
+Evaluating:  92%|█████████▏| 183/200 [03:36<00:15,  1.07it/s]
+Evaluating:  92%|█████████▏| 184/200 [03:37<00:17,  1.07s/it]
+Evaluating:  92%|█████████▎| 185/200 [03:38<00:16,  1.10s/it]
+Evaluating:  93%|█████████▎| 186/200 [03:39<00:14,  1.04s/it]
+Evaluating:  94%|█████████▎| 187/200 [03:41<00:15,  1.15s/it]
+Evaluating:  94%|█████████▍| 188/200 [03:42<00:13,  1.13s/it]
+Evaluating:  94%|█████████▍| 189/200 [03:42<00:10,  1.08it/s]
+Evaluating:  95%|█████████▌| 190/200 [03:43<00:10,  1.01s/it]
+Evaluating:  96%|█████████▌| 191/200 [03:45<00:09,  1.11s/it]
+Evaluating:  96%|█████████▌| 192/200 [03:46<00:09,  1.20s/it]
+Evaluating:  96%|█████████▋| 193/200 [03:47<00:08,  1.17s/it]
+Evaluating:  97%|█████████▋| 194/200 [03:48<00:07,  1.23s/it]
+Evaluating:  98%|█████████▊| 195/200 [03:50<00:07,  1.45s/it]
+Evaluating:  98%|█████████▊| 197/200 [03:52<00:03,  1.15s/it]
+Evaluating:  99%|█████████▉| 198/200 [03:53<00:02,  1.20s/it]
+Evaluating: 100%|█████████▉| 199/200 [03:55<00:01,  1.20s/it]
+Evaluating: 100%|██████████| 200/200 [03:55<00:00,  1.18s/it]
+
+📊 Kết quả RAGAS — Prompt V2:
+  faithfulness                  : 0.7576
+  answer_relevancy              : 0.8728
+  context_recall                : 1.0000
+  context_precision             : 0.9467
+
+=================================================================
+  Metric                                V1        V2  Winner
+=================================================================
+  faithfulness                      0.9790    0.7576  ← V1
+  answer_relevancy                  0.8937    0.8728  ← V1
+  context_recall                    1.0000    1.0000  ← V2
+  context_precision                 0.9467    0.9467  ← V2
+
+✅ Đạt mục tiêu: faithfulness = 0.9790 ≥ 0.8
+💾 Đã lưu báo cáo vào data\ragas_report.json
